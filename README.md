@@ -1,16 +1,4 @@
-# starbucks
+# Flutter Starbucks UI Challenge
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![original-9b90379790f7d84f519ba8747ec435c1](https://github.com/Dinesh-Sowndar/flutter_starbucks_ui_challenge/assets/29474697/d919dbf5-6436-4f82-a474-7ba9cd0ff4a4)
