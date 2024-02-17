@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:starbucks/model/size_model.dart';
@@ -47,14 +46,14 @@ class ProductSize extends StatelessWidget {
           height: 5,
         ),
         Text(
-          sizes.name!,
+          sizes.name,
           style: const TextStyle(
             fontSize: 14,
             color: Colors.black,
           ),
         ),
         Text(
-          sizes.qty!,
+          sizes.qty,
           style: const TextStyle(
             fontSize: 10,
             color: Colors.grey,

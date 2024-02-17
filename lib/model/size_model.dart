@@ -1,18 +1,23 @@
 class SizeModel {
-  String? name;
-  String? qty;
+  String name;
+  String qty;
 
-  SizeModel({this.name, this.qty});
+  SizeModel({
+    required this.name,
+    required this.qty,
+  });
 
-  SizeModel.fromJson(Map<String, dynamic> json) {
-    name = json['name'];
-    qty = json['qty'];
+  factory SizeModel.fromJson(Map<String, dynamic> json) {
+    return SizeModel(
+      name: json['name'] ?? '',
+      qty: json['qty'] ?? '',
+    );
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = <String, dynamic>{};
-    data['name'] = name;
-    data['qty'] = qty;
-    return data;
+    return {
+      'name': name,
+      'qty': qty,
+    };
   }
 }
